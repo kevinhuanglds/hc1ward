@@ -1,7 +1,10 @@
 <!doctype html>
-<html ng-app>
+<html>
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+		
+	</script>
   </head>
   <body>
     <div>

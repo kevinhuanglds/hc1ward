@@ -30,6 +30,7 @@ public class AuthUtil {
 	public static boolean hasAdminRole() {
 		boolean result = false ;
 		User u = getCurrentUser();
+		
 		if (u != null) {
 			Permission p = PermissionDAO.getAdminPermission(u.getEmail(),"admin");
 			result = (p != null) || (u.getEmail().toLowerCase().equals("kevinhuang.lds@gmail.com"));
